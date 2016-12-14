@@ -57,12 +57,14 @@ repeat {
 } while i < 10
 
 
-func somar(a: Int, b: Int) -> Int {
+func somar(_ a: Int, _ b: Int) -> Int {
     return a + b
 }
 
-somar(a: 23, b: 34)
-somar(a: 23, b: 334)
+somar(23, 34)
+somar(23, 334)
+
+somar(21, 2334)
 
 var meu_opcional:String?
 
