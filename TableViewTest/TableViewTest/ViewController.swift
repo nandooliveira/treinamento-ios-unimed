@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
-    let nomes = ["Tonho", "Ze de NanAN", "O cara"]
+    var nomes = ["Tonho", "Ze de NanAN", "O cara"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,5 +40,44 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
 
+    
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        let delete = UITableViewRowAction(style: .destructive, title: "Delete") { (action, indexPath) in
+            self.nomes.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+        }
+        
+        let share = UITableViewRowAction(style: .normal, title: "Edit") { (action, indexPath) in
+            super.setEditing(true, animated: true)
+            tableView.setEditing(true, animated: true)
+        }
+        
+        share.backgroundColor = UIColor.cyan
+        
+        
+        return [delete, share]
+    }
+
+    
+    func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
+        return "Tem certeza man?"
+    }
+
+    func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let source = nomes[sourceIndexPath.row]
+        let destination = nomes[destinationIndexPath.row]
+        
+        nomes[sourceIndexPath.row] = destination
+        nomes[destinationIndexPath.row] = source
+    }
 }
 
