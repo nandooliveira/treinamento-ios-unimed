@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9289741E0CA8AE008420A4 /* NotasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9289731E0CA8AE008420A4 /* NotasViewController.swift */; };
 		3CDCCABC1E0C8ED0007A5640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCCABB1E0C8ED0007A5640 /* AppDelegate.swift */; };
 		3CDCCABE1E0C8ED0007A5640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCCABD1E0C8ED0007A5640 /* ViewController.swift */; };
 		3CDCCAC11E0C8ED0007A5640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCCABF1E0C8ED0007A5640 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C9289731E0CA8AE008420A4 /* NotasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotasViewController.swift; sourceTree = "<group>"; };
 		3CDCCAB81E0C8ED0007A5640 /* UniNotas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniNotas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDCCABB1E0C8ED0007A5640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CDCCABD1E0C8ED0007A5640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				3CDCCAC71E0C8ED0007A5640 /* LaunchScreen.storyboard */,
 				3CDCCACA1E0C8ED0007A5640 /* Info.plist */,
 				3CDCCAC21E0C8ED0007A5640 /* UniNotas.xcdatamodeld */,
+				3C9289731E0CA8AE008420A4 /* NotasViewController.swift */,
 			);
 			path = UniNotas;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9289741E0CA8AE008420A4 /* NotasViewController.swift in Sources */,
 				3CDCCABE1E0C8ED0007A5640 /* ViewController.swift in Sources */,
 				3CDCCAC41E0C8ED0007A5640 /* UniNotas.xcdatamodeld in Sources */,
 				3CDCCABC1E0C8ED0007A5640 /* AppDelegate.swift in Sources */,
@@ -321,6 +325,7 @@
 				3CDCCACF1E0C8ED0007A5640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
