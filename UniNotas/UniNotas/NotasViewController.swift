@@ -22,15 +22,15 @@ class NotasViewController: UIViewController {
         let busca = NSFetchRequest<NSFetchRequestResult>(entityName: "Nota")
         
         do {
-            let notas = context.fetch(busca)
+            let notas = try context.fetch(busca)
+            for nota in notas as! [NSManagedObject] {
+                print(nota.value(forKey: "texto") ?? "no value")
+            }
         } catch {
             print("Deu erro")
         }
         
-        for nota in notas {
-            
-            print(nota.)
-        }
+        
     }
 
     override func didReceiveMemoryWarning() {
