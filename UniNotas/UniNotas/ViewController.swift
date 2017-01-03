@@ -13,27 +13,26 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var textView: UITextView!
     var context: NSManagedObjectContext!
+    var notaSelecionada:Nota?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-//        let notaAtual = UserDefaults.standard.object(forKey: "nota")
-//        
-//        if notaAtual != nil {
-//            textView.text = notaAtual as! String
-//        }
         let delegate = UIApplication.shared.delegate as! AppDelegate
         context = delegate.persistentContainer.viewContext
+        
+        if notaSelecionada != nil {
+            textView.text = notaSelecionada?.texto
+        }
     }
 
     @IBAction func salvarNota(_ sender: Any) {
-//        UserDefaults.standard.set(textView.text, forKey: "nota")
+        let nota:Nota!
         
-        let nota = NSEntityDescription.insertNewObject(forEntityName: "Nota", into: context)
+        nota = notaSelecionada == nil ? Nota(context: context) : notaSelecionada
         
-        nota.setValue(textView.text, forKey: "texto")
-        nota.setValue(NSDate(), forKey: "ultimaAlteracao")
+        nota.texto = textView.text
+        nota.ultimaAlteracao = NSDate()
         
         do {
             try context.save()
