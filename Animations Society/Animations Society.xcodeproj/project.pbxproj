@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C20CF0E1E1F0AA80099C902 /* mapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C20CF0D1E1F0AA80099C902 /* mapicon.png */; };
-		3C9310531E1C79F400FE8C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9310521E1C79F400FE8C9C /* AppDelegate.swift */; };
-		3C9310551E1C79F400FE8C9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9310541E1C79F400FE8C9C /* ViewController.swift */; };
-		3C9310581E1C79F400FE8C9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9310561E1C79F400FE8C9C /* Main.storyboard */; };
-		3C93105A1E1C79F400FE8C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9310591E1C79F400FE8C9C /* Assets.xcassets */; };
-		3C93105D1E1C79F400FE8C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C93105B1E1C79F400FE8C9C /* LaunchScreen.storyboard */; };
+		3C20CF1C1E1F12F60099C902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20CF1B1E1F12F60099C902 /* AppDelegate.swift */; };
+		3C20CF1E1E1F12F60099C902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20CF1D1E1F12F60099C902 /* ViewController.swift */; };
+		3C20CF211E1F12F60099C902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C20CF1F1E1F12F60099C902 /* Main.storyboard */; };
+		3C20CF231E1F12F60099C902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C20CF221E1F12F60099C902 /* Assets.xcassets */; };
+		3C20CF261E1F12F60099C902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C20CF241E1F12F60099C902 /* LaunchScreen.storyboard */; };
+		3C20CF331E1F209F0099C902 /* guia01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C20CF311E1F209F0099C902 /* guia01.png */; };
+		3C20CF341E1F209F0099C902 /* guia02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C20CF321E1F209F0099C902 /* guia02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C20CF0D1E1F0AA80099C902 /* mapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapicon.png; sourceTree = "<group>"; };
-		3C93104F1E1C79F400FE8C9C /* Mapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapas.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C9310521E1C79F400FE8C9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C9310541E1C79F400FE8C9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C9310571E1C79F400FE8C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C9310591E1C79F400FE8C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C93105C1E1C79F400FE8C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3C93105E1E1C79F400FE8C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C20CF181E1F12F60099C902 /* Animations Society.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animations Society.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C20CF1B1E1F12F60099C902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C20CF1D1E1F12F60099C902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C20CF201E1F12F60099C902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C20CF221E1F12F60099C902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C20CF251E1F12F60099C902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C20CF271E1F12F60099C902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C20CF311E1F209F0099C902 /* guia01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guia01.png; sourceTree = "<group>"; };
+		3C20CF321E1F209F0099C902 /* guia02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guia02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C93104C1E1C79F400FE8C9C /* Frameworks */ = {
+		3C20CF151E1F12F60099C902 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,73 +39,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C9310461E1C79F300FE8C9C = {
+		3C20CF0F1E1F12F60099C902 = {
 			isa = PBXGroup;
 			children = (
-				3C9310511E1C79F400FE8C9C /* Mapas */,
-				3C9310501E1C79F400FE8C9C /* Products */,
+				3C20CF1A1E1F12F60099C902 /* Animations Society */,
+				3C20CF191E1F12F60099C902 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3C9310501E1C79F400FE8C9C /* Products */ = {
+		3C20CF191E1F12F60099C902 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C93104F1E1C79F400FE8C9C /* Mapas.app */,
+				3C20CF181E1F12F60099C902 /* Animations Society.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C9310511E1C79F400FE8C9C /* Mapas */ = {
+		3C20CF1A1E1F12F60099C902 /* Animations Society */ = {
 			isa = PBXGroup;
 			children = (
-				3C20CF0D1E1F0AA80099C902 /* mapicon.png */,
-				3C9310521E1C79F400FE8C9C /* AppDelegate.swift */,
-				3C9310541E1C79F400FE8C9C /* ViewController.swift */,
-				3C9310561E1C79F400FE8C9C /* Main.storyboard */,
-				3C9310591E1C79F400FE8C9C /* Assets.xcassets */,
-				3C93105B1E1C79F400FE8C9C /* LaunchScreen.storyboard */,
-				3C93105E1E1C79F400FE8C9C /* Info.plist */,
+				3C20CF311E1F209F0099C902 /* guia01.png */,
+				3C20CF321E1F209F0099C902 /* guia02.png */,
+				3C20CF1B1E1F12F60099C902 /* AppDelegate.swift */,
+				3C20CF1D1E1F12F60099C902 /* ViewController.swift */,
+				3C20CF1F1E1F12F60099C902 /* Main.storyboard */,
+				3C20CF221E1F12F60099C902 /* Assets.xcassets */,
+				3C20CF241E1F12F60099C902 /* LaunchScreen.storyboard */,
+				3C20CF271E1F12F60099C902 /* Info.plist */,
 			);
-			path = Mapas;
+			path = "Animations Society";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C93104E1E1C79F400FE8C9C /* Mapas */ = {
+		3C20CF171E1F12F60099C902 /* Animations Society */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C9310611E1C79F400FE8C9C /* Build configuration list for PBXNativeTarget "Mapas" */;
+			buildConfigurationList = 3C20CF2A1E1F12F60099C902 /* Build configuration list for PBXNativeTarget "Animations Society" */;
 			buildPhases = (
-				3C93104B1E1C79F400FE8C9C /* Sources */,
-				3C93104C1E1C79F400FE8C9C /* Frameworks */,
-				3C93104D1E1C79F400FE8C9C /* Resources */,
+				3C20CF141E1F12F60099C902 /* Sources */,
+				3C20CF151E1F12F60099C902 /* Frameworks */,
+				3C20CF161E1F12F60099C902 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Mapas;
-			productName = Mapas;
-			productReference = 3C93104F1E1C79F400FE8C9C /* Mapas.app */;
+			name = "Animations Society";
+			productName = "Animations Society";
+			productReference = 3C20CF181E1F12F60099C902 /* Animations Society.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3C9310471E1C79F300FE8C9C /* Project object */ = {
+		3C20CF101E1F12F60099C902 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Unimed;
 				TargetAttributes = {
-					3C93104E1E1C79F400FE8C9C = {
+					3C20CF171E1F12F60099C902 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3C93104A1E1C79F300FE8C9C /* Build configuration list for PBXProject "Mapas" */;
+			buildConfigurationList = 3C20CF131E1F12F60099C902 /* Build configuration list for PBXProject "Animations Society" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,55 +114,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 3C9310461E1C79F300FE8C9C;
-			productRefGroup = 3C9310501E1C79F400FE8C9C /* Products */;
+			mainGroup = 3C20CF0F1E1F12F60099C902;
+			productRefGroup = 3C20CF191E1F12F60099C902 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C93104E1E1C79F400FE8C9C /* Mapas */,
+				3C20CF171E1F12F60099C902 /* Animations Society */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3C93104D1E1C79F400FE8C9C /* Resources */ = {
+		3C20CF161E1F12F60099C902 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C93105D1E1C79F400FE8C9C /* LaunchScreen.storyboard in Resources */,
-				3C20CF0E1E1F0AA80099C902 /* mapicon.png in Resources */,
-				3C93105A1E1C79F400FE8C9C /* Assets.xcassets in Resources */,
-				3C9310581E1C79F400FE8C9C /* Main.storyboard in Resources */,
+				3C20CF341E1F209F0099C902 /* guia02.png in Resources */,
+				3C20CF331E1F209F0099C902 /* guia01.png in Resources */,
+				3C20CF261E1F12F60099C902 /* LaunchScreen.storyboard in Resources */,
+				3C20CF231E1F12F60099C902 /* Assets.xcassets in Resources */,
+				3C20CF211E1F12F60099C902 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C93104B1E1C79F400FE8C9C /* Sources */ = {
+		3C20CF141E1F12F60099C902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C9310551E1C79F400FE8C9C /* ViewController.swift in Sources */,
-				3C9310531E1C79F400FE8C9C /* AppDelegate.swift in Sources */,
+				3C20CF1E1E1F12F60099C902 /* ViewController.swift in Sources */,
+				3C20CF1C1E1F12F60099C902 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3C9310561E1C79F400FE8C9C /* Main.storyboard */ = {
+		3C20CF1F1E1F12F60099C902 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C9310571E1C79F400FE8C9C /* Base */,
+				3C20CF201E1F12F60099C902 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3C93105B1E1C79F400FE8C9C /* LaunchScreen.storyboard */ = {
+		3C20CF241E1F12F60099C902 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C93105C1E1C79F400FE8C9C /* Base */,
+				3C20CF251E1F12F60099C902 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3C93105F1E1C79F400FE8C9C /* Debug */ = {
+		3C20CF281E1F12F60099C902 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		3C9310601E1C79F400FE8C9C /* Release */ = {
+		3C20CF291E1F12F60099C902 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,25 +262,25 @@
 			};
 			name = Release;
 		};
-		3C9310621E1C79F400FE8C9C /* Debug */ = {
+		3C20CF2B1E1F12F60099C902 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Mapas/Info.plist;
+				INFOPLIST_FILE = "Animations Society/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unimedmaceio.Mapas;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unimedmaceio.Animations-Society";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		3C9310631E1C79F400FE8C9C /* Release */ = {
+		3C20CF2C1E1F12F60099C902 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Mapas/Info.plist;
+				INFOPLIST_FILE = "Animations Society/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unimedmaceio.Mapas;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unimedmaceio.Animations-Society";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,25 +289,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C93104A1E1C79F300FE8C9C /* Build configuration list for PBXProject "Mapas" */ = {
+		3C20CF131E1F12F60099C902 /* Build configuration list for PBXProject "Animations Society" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C93105F1E1C79F400FE8C9C /* Debug */,
-				3C9310601E1C79F400FE8C9C /* Release */,
+				3C20CF281E1F12F60099C902 /* Debug */,
+				3C20CF291E1F12F60099C902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C9310611E1C79F400FE8C9C /* Build configuration list for PBXNativeTarget "Mapas" */ = {
+		3C20CF2A1E1F12F60099C902 /* Build configuration list for PBXNativeTarget "Animations Society" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C9310621E1C79F400FE8C9C /* Debug */,
-				3C9310631E1C79F400FE8C9C /* Release */,
+				3C20CF2B1E1F12F60099C902 /* Debug */,
+				3C20CF2C1E1F12F60099C902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3C9310471E1C79F300FE8C9C /* Project object */;
+	rootObject = 3C20CF101E1F12F60099C902 /* Project object */;
 }

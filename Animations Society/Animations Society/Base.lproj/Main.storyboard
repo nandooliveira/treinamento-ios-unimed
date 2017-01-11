@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animations_Society" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuário" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9en-UG-u2Z">
+                                <rect key="frame" x="16" y="60" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="puB-Cr-keL">
+                                <rect key="frame" x="16" y="121" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQE-Qp-hX7">
+                                <rect key="frame" x="128" y="185" width="118" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.32517482285038013" blue="0.22912429483184771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="jcG-J3-mHR"/>
+                                </constraints>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="0.98440607278856274" green="0.96778812347307475" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FgX-CG-kz0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81896414974619292" green="0.59957583497732558" blue="0.40175394019701532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="puB-Cr-keL" firstAttribute="top" secondItem="9en-UG-u2Z" secondAttribute="bottom" constant="31" id="1O8-x1-Xc6"/>
+                            <constraint firstItem="puB-Cr-keL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8O1-7A-QhO"/>
+                            <constraint firstItem="9en-UG-u2Z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FT1-r0-HmF"/>
+                            <constraint firstItem="9en-UG-u2Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Juh-Hp-joe"/>
+                            <constraint firstItem="9en-UG-u2Z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="KcC-8b-fqT"/>
+                            <constraint firstItem="pQE-Qp-hX7" firstAttribute="top" secondItem="puB-Cr-keL" secondAttribute="bottom" constant="34" id="QrW-aF-b2Y"/>
+                            <constraint firstItem="9en-UG-u2Z" firstAttribute="leading" secondItem="puB-Cr-keL" secondAttribute="leading" id="rV6-0m-G5B"/>
+                            <constraint firstItem="puB-Cr-keL" firstAttribute="centerX" secondItem="pQE-Qp-hX7" secondAttribute="centerX" id="uNO-Ft-djt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="pQE-Qp-hX7" id="RfX-ds-Om6"/>
+                        <outlet property="centerAlignSenha" destination="8O1-7A-QhO" id="V46-WO-peX"/>
+                        <outlet property="centerAlignUsuario" destination="Juh-Hp-joe" id="ido-da-e0I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
