@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CameraTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="729-6S-Eet">
+                                <rect key="frame" x="16" y="20" width="343" height="593"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A90-KH-riE">
+                                <rect key="frame" x="305" y="629" width="54" height="30"/>
+                                <state key="normal" title="Câmera"/>
+                                <connections>
+                                    <action selector="useCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twZ-zV-hLm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMd-QC-t47">
+                                <rect key="frame" x="16" y="629" width="49" height="30"/>
+                                <state key="normal" title="Galeria"/>
+                                <connections>
+                                    <action selector="useGallery:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Gu-yx-NTf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="729-6S-Eet" firstAttribute="trailing" secondItem="A90-KH-riE" secondAttribute="trailing" id="01I-uV-9c5"/>
+                            <constraint firstItem="rMd-QC-t47" firstAttribute="top" secondItem="729-6S-Eet" secondAttribute="bottom" constant="16" id="2B1-iL-MyW"/>
+                            <constraint firstItem="rMd-QC-t47" firstAttribute="baseline" secondItem="A90-KH-riE" secondAttribute="baseline" id="CJ1-rx-abY"/>
+                            <constraint firstItem="729-6S-Eet" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Gbm-iJ-daj"/>
+                            <constraint firstItem="729-6S-Eet" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="H3d-ua-iYq"/>
+                            <constraint firstItem="729-6S-Eet" firstAttribute="leading" secondItem="rMd-QC-t47" secondAttribute="leading" id="ajc-J8-ek6"/>
+                            <constraint firstItem="729-6S-Eet" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cYt-X6-kRh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rMd-QC-t47" secondAttribute="bottom" constant="8" symbolic="YES" id="i9F-CQ-U8x"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="729-6S-Eet" id="nDU-Nq-3vc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
