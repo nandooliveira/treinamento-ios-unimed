@@ -17,6 +17,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let myButton = UIButton(frame: CGRect(x: 0, y: 0, width: 200.0, height: 40.0))
+        myButton.setTitle("Meu Botão", for: UIControlState.normal)
+        view.insertSubview(myButton, aboveSubview: imageView)
+        self.view.layoutIfNeeded()
     }
 
     @IBAction func useCamera(_ sender: Any) {
